@@ -23,4 +23,4 @@ I haven't done much web development but I found [this](https://github.com/bmorel
 
 ## Contributors
 My name is Chase W Smith and I'm a Computer Science Senior here at Northwest. I dont really have any photos of just me so heres one of me and m'lady on vacation this summer.
-![](https://github.com/cweltonsmith/about-me/blob/master/Vacation.jpg)
+![](https://raw.githubusercontent.com/cweltonsmith/about-me/master/resources/Vacation.jpg)
