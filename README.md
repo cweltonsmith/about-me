@@ -5,7 +5,8 @@
 - [Hosted Page](https://cweltonsmith.github.io/about-me/)
 
 ## About
-This repo will be used to share information about the tools and resources we use in this class and also to share information about myself. This page will be useful for anyone wanting to learn about Web Apps.
+This repo will be used to share information about the tools and resources we use in this class and also to share information about myself. This page will be useful for anyone wanting to learn about Web Apps or looking for resources.
+
 ## Recommended Tools
 The only tools required to publish a repo with GitHub Pages is an internet source and a web browser.  I prefer to use Firefox but alot of people use Chrome. Both are great web browers that are easy to use and are linked below. That being said GitHub Pages uses Markdown Files which in turn uses the Markdown Language. Markdown is a text-to-HTML tool that converts your plain text into valid HTML. There are many good sources on the internet that show you how to use Markdown step by step. Below is the GitHub help page for Markdwon
 
@@ -21,5 +22,5 @@ I haven't done much web devlopment but I found [this](https://github.com/bmorell
  - The professors and the help sessions at Northwest are also great resources that allow you to get real help in person. Take advantage of the resources afforded to you as a student.
 
 ## Contributors
-My name is Chase W Smith and I'm a Computer Science Major here at Northwest.
-
+My name is Chase W Smith and I'm a Computer Science Senior here at Northwest. I dont really have any photos of just me so heres one of me and m'lady on vacation this summer.
+![](https://github.com/cweltonsmith/about-me/blob/master/Vacation.jpg)
