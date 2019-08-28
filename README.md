@@ -8,8 +8,7 @@
 This repo will be used to share information about the tools and resources we use in this class and also to share information about myself. This page will be useful for anyone wanting to learn about Web Apps or looking for resources.
 
 ## Recommended Tools
-The only tools required to publish a repo with GitHub Pages is an internet source and a web browser.  I prefer to use Firefox but alot of people use Chrome. Both are great web browers that are easy to use and are linked below. That being said GitHub Pages uses Markdown Files which in turn uses the Markdown Language. Markdown is a text-to-HTML tool that converts your plain text into valid HTML. There are many good resources on the internet that show you how to use Markdown step by step. Below is the offical GitHub help page for Markdown.
-
+The only tools required to publish a repo with GitHub Pages is an internet source and a web browser.  I prefer to use Firefox but alot of people use Chrome. Both are great web browers that are easy to use and are linked below. That being said GitHub Pages uses Markdown Files which in turn uses the Markdown Language. Markdown is a text-to-HTML tool that converts your plain text into valid HTML. There are many good resources on the internet that show you how to use Markdown step by step. Below is the offical GitHub help page for Markdown. Additionaly if you want to do work locally from your computer intsead of the website you can download git bash and a text editor such as Visual Studio Code or Notepadd++.
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 - [Google Chrome](https://www.google.com/chrome/)
 - [GitHub's Markdown Help Page](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
