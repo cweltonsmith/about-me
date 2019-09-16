@@ -2,44 +2,51 @@
   background-color: transparent;
 
 }
-.navbar a {
-  color: black !important;
+.navbar a,button,input {
+  color: rgb(146, 230, 11) !important;
 }
-
 
 .navbar li { 
   color: #000 
 } 
+a:link{
+  color: rgb(146, 230, 11) !important;
+}
+a:visited{
+  color: rgb(146, 230, 11) !important;
+}
+body {
+  padding-top: 5rem;
+}
+body, html {
+  height: 100%;
+}
+h2,h1{
+  color: rgb(0, 0, 0);
+  }
 
-  body {
-    background-image: url('https://i.kym-cdn.com/photos/images/original/001/263/561/71c.jpg');
-    padding-top: 5rem;
-  }
-  
-  body, html {
-    height: 100%;
-  }
-  
-  .video-wrapper {
-    width: 100%;
-    background-color: rgb(76, 82, 100);
-  }
-  
-  section {
-    margin: 1rem;
-    padding: 2rem;
-    background-color: rgba(116, 240, 137, 0.966);
-    border-radius: 2em;
-  }
-  
-  .bgimg {
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-    height: 100%;
-    position: relative;
-    opacity: 0.85;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; /* fixed in viewport */
-  }
+footer{
+  color: rgb(146, 230, 11);
+}
+img {
+border-radius: 50%;
+} 
+table td, tr{
+  color: rgb(146, 230, 11)
+}
+section {
+  margin: 1rem;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(100, 100, 100, 0.85);
+  border-radius: 2em;
+}
+.bgimg {
+  background-image: url("https://i.imgur.com/IrhUsCZ.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+}
   
