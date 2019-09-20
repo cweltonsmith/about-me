@@ -29,44 +29,38 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="app.html">CG Calculator</a>
+                    <a class="nav-link disabled" href="app.html">CG Calculator</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Submit</button>
-
             </form>
         </div>
     </nav>
     <hr>
     <header>
     </header>
-    <main class="container-fluid">
-        <div class="container">
-            <form id="contact" action="" method="post">
-                <h3>Contact Form</h3>
-                <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4">
-                </fieldset>
-                <fieldset>
-                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                </fieldset>
-                <fieldset>
-                    <button classname="submit" type="submit" id="contact-submit"
-                        data-submit="...Sending">Submit</button>
-                </fieldset>
-            </form>
-        </div>
+    <main class="col-sm-9" id="app">
+            <h3>Aircraft Center of Gravity Calculator</h3>
+            <br>
+            <table align="center" style="width:53%" table-layout="fixed">
+                <tr>
+                    <td>
+                        <label for="weight-field">Total Weight:</label>
+                        <input id="weight-field" type="text" class="text-field" value="" placeholder="0.00">
+                    </td>
+                    <td>
+                        <label for="moment-field">Total Moment: </label>
+                        <input id="moment-field" type="text" class="text-field" value="" placeholder="0.00">
+                    </td>
+                    <td>
+                        <label>CG: <span id="total-amount">0.00</span></label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button id="calculate" type="submit">Calculate</button>
     </main>
     <hr>
     <aside>
@@ -81,7 +75,8 @@
             </section>
         </div>
     </aside>
-    <footer class="container-fluid"> &copy 2019 Smith</footer>
+    <footer class="container-fluid"> &copy 2019 Smith </footer>
+    <script src="SCRIPT/code.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -92,5 +87,4 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
