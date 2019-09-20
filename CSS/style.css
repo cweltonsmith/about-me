@@ -11,9 +11,6 @@ body, html {
   height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6{
-  color: rgb(0, 0, 0);
-}
 
 footer{
   color: rgb(146, 230, 11);
@@ -51,6 +48,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; 
+  
 }
 
 
@@ -82,12 +80,7 @@ section {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
+
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -146,6 +139,13 @@ section {
 #contact textarea:focus {
   outline: 0;
   border: 1px solid #646464
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 fieldset {
@@ -211,6 +211,13 @@ input{
   width: 100%;
   border: 1px solid rgb(146, 230, 11);
   background: rgb(100, 100, 100, .85);
+}
+
+#app h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 
