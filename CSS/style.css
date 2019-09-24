@@ -20,6 +20,12 @@ img.rounded-corners{
   border-radius: 50%;
 } 
 
+table{
+  border-radius: 2em;
+  overflow: hidden !important;
+  border-collapse: collapse !important;
+}
+
 table td, tr{
   color: rgb(146, 230, 11)
 
@@ -51,6 +57,10 @@ section {
   
 }
 
+.nasa{
+  width: 400px;
+  height: 200px;
+}
 
 /* I used a template from the internet to sorta base my contact page off of. https://codepen.io/colorlib/pen/KVoZyv */
 .container {

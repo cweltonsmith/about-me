@@ -8,9 +8,11 @@ function calculations() {
     const CG = (moment / weight)
 
     //Modifying HTML page with the calculations output
-    document.querySelector('#total-amount').innerHTML = ` ${CG.toFixed(2)}`
+    document.querySelector('#total-amount').innerHTML = `${CG.toFixed(2)}`
 }
 
 
 //On click perform the calculation function
 document.querySelector('#calculate').addEventListener('click', calculations)
+
+
