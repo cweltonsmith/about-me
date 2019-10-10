@@ -3,7 +3,13 @@ function calculations() {
     //Passes string and returns float
     const weight = parseFloat(document.querySelector('#weight-field').value)
     const moment = parseFloat(document.querySelector('#moment-field').value)
-    console.log("Getting Ints")
+    
+    if(weight<0){
+        throw new Error( "Weight shouldn't be negative");
+    }
+    if(moment<0){
+        throw new Error( "Moment shouldn't be negative");
+    }
 
     //Doing all the simple calculations
     const CG = (moment / weight)
@@ -11,6 +17,7 @@ function calculations() {
     //Modifying HTML page with the calculations output
     document.querySelector('#total-amount').innerHTML = `${CG.toFixed(2)}`
 }
+
 function storage(){
     
     const name = document.querySelector("#name").value
